@@ -27,7 +27,7 @@ sudo ./nezha.sh
 利用宝塔建站，开启SSL，反代
 在宝塔面板中新建站点，我这里是tz.haoduck.com,然后设置反代
 ```
-反代配制文件
+反代配置文件
 location /
 {
     proxy_pass http://127.0.0.1:8008;
